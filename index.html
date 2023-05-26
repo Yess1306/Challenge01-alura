@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+    
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    </head>
+
+ <body>
+
+    <header>
+     <img class="logo" src="logo.png" alt="Imagen de letra a">
+     <h1 class="titulo">Encriptador de texto</h1>
+    </header>
+
+    <main>
+        <div class="main">
+           <div class="izquierda">
+             <textarea id="cajaTexto" class="caja-texto" placeholder="Ingrese el texto aquí"></textarea> 
+
+               <div class="izquierda-txt-final"> 
+                  <img class="signo-exclamacion" src="bi_exclamation-circle-fill.png" alt="signo de exclamación">
+                  <span>Solo minusculas y sin acentos</span>
+
+                  <div class="botones-izquierda">
+                      <button id="botonEncriptar" class="boton-encriptar">Encriptar</button>
+                      <button id="botonDesencriptar" class="boton-desencriptar">Desencriptar</button>
+                 </div>
+              </div>
+            </div>
+
+           <div id="right" class="derecha">
+              <img src="Muñeco.png" alt="Imagen de muneco" id="muñeco">
+              <textarea id="mensajeTxt" class="mensaje1" placeholder="Ningún mensaje fue encontrado"></textarea>
+              <p  id="mensajeTxt2" class="mensaje2">Ingresa el texto que desees encriptar o desencriptar</p>
+              <button id="botonCopiar" class="boton-copiar oculto">Copiar</button>
+           </div>
+      </div>
+
+    </main>
+    <footer>
+      <p class="Copyright">&copy Copyright Yessica Ramírez 2023</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+ </body>
+</html>
